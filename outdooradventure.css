@@ -1,0 +1,170 @@
+/*Richard Figueroa, 000302387*/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+
+
+}
+
+/*Header associated css */
+
+header{
+  display:grid;
+  grid-template-columns:auto auto auto;
+
+
+}
+
+
+div#headerlogin{
+  align-self:center;
+  justify-self: start;
+  min-width: 200px;
+  padding-left: 5px;
+}
+
+
+div#headerlogin a {
+  border-radius: 35px;
+  background: #0172BA;
+  color:white;
+  padding: 10px;
+  text-decoration: none;
+
+
+
+}
+
+div#headerlogin a:hover{
+  background-color:#089247;
+   color:white;
+
+
+}
+
+
+div#headerlogo{
+  align-self:center;
+  justify-self:center;
+
+
+}
+
+div#headersocial{
+  display: flex;
+  align-self: center;
+  justify-self: end;
+
+}
+
+div#headersocial a{
+  padding: 2px;
+}
+
+
+
+/*  nav associated css */
+
+nav{
+  background-color: #ECF7FE;
+  justify-content: center;
+  text-align:center;
+  padding:20px ;
+  top:0;
+  position: sticky;
+  border-top: 1px solid #0172BA;
+  border-bottom: 1px solid #0172BA;
+  display:flex;
+  min-width: 700px;
+}
+
+nav a{
+
+  background-color:white;
+  border-radius: 55px;
+  border: 1px solid;
+  padding:10px;
+text-decoration: none;
+  color:#0172BA;
+
+}
+
+nav a:hover{
+  color: #0172BA;
+  background-color: #003557;
+
+
+
+}
+
+
+
+nav li{
+display: inline;
+padding:0px 10px;
+
+
+}
+
+
+
+
+/*Footer associated css  */
+
+footer{
+  grid-gap:20px;
+  background-color: #ECF7FE;
+  display:grid;
+  grid-template-columns: auto auto auto auto auto;
+  border-top: 1px solid #0172BA;
+  border-bottom: 1px solid #0172BA;
+  overflow: auto;
+  margin-bottom: 20px;
+
+}
+footer div{
+ margin: 10px 0px;
+}
+
+footer h4{
+ border-bottom:1px solid #0172BA;
+}
+
+
+div#footlogo{
+  grid-column: 1;
+  grid-row: 1 / span 2;
+
+}
+
+div#aboutus{
+  grid-column:2;
+  grid-row:1 ;
+}
+div#reviews{
+  grid-column:2;
+  grid-row:2;
+}
+
+div#travel{
+  grid-column:3;
+  grid-row:1;
+}
+div#seminars{
+  grid-column:3;
+  grid-row:2;
+}
+div#photos{
+  grid-column:4;
+  grid-row:1;
+}
+div#events{
+  grid-column:4;
+  grid-row:2;
+}
+div#shop{
+  grid-column:5;
+  grid-row:1/ span 2;
+}
